@@ -2,33 +2,43 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
   <title>Frontend Mentor | Social links profile</title>
+  <link rel="stylesheet" href="style.css">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
-
-  Jessica Randall
-  London, United Kingdom
-  "Front-end developer and avid reader."
-
-  GitHub
-  Frontend Mentor
-  LinkedIn
-  Twitter
-  Instagram
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+  <main>
+    <div class="card-container">
+      <div class="social-card">
+        <!-- Profile Image -->
+        <div class="profile-img">
+          <img src="./assets/images/psd.jpg" alt="Jessica Randall" />
+        </div>
+      
+        <!-- Name and Location -->
+        <div class="social-card-header">
+          <h2 class="name">Pratik Deshmane</h2>
+          <p class="location">Pune, India</p>
+        </div>
+      
+        <!-- Description -->
+        <div class="social-card-bio">
+          <p>"Front-end developer and UI/UX Designer"</p>
+        </div>
+      
+        <!-- Social Links -->
+        <div class="social-card-links">
+          <a href="https://github.com/Pratik7006" role="button" class="button">Github</a>
+          <a href="https://www.frontendmentor.io/profile/Pratik7006" role="button" class="button">Frontend Mentor</a>
+          <a href="https://www.linkedin.com/in/pratik7006/" role="button" class="button">LinkedIn</a>
+          <a href="https://x.com/pratik7006" role="button" class="button">Twitter</a>
+          <a href="https://www.instagram.com/wanderclicks_by_pratik/" role="button" class="button">Instagram</a>
+        </div>
+      </div>
+      
+    </div>
+  </main>
 </body>
 </html>
